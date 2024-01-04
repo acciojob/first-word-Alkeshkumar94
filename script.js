@@ -18,5 +18,5 @@ function firstWord(s) {
 
 
 
-// const s = prompt("Enter String:");
-// alert(firstWord(s));
+const s = prompt("Enter String:");
+alert(firstWord(s));
