@@ -4,6 +4,7 @@ function firstWord(s) {
 	{
 		return s;
 	}
+	s=s.trim(' ');
 	const spaceindex=s.indexOf(' ');
 	if(spaceindex===-1)
 	{
@@ -15,5 +16,7 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+
+
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
